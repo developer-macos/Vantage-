@@ -1,0 +1,23 @@
+:root{
+    --backgr-for-logo: #99823D;
+}
+
+.logo{
+    background-color: var(--backgr-for-logo);
+    width: 326px;
+}
+
+.menu{
+    display: flex;
+    background-color: #141414;
+}
+
+.menu li{
+    list-style: none;
+    gap: 10px;
+}
+
+.menu p{
+    color: white;
+    margin-left: 15px;
+}
