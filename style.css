@@ -9,7 +9,6 @@
 
 .menu{
     display: flex;
-    background-color: #141414;
 }
 
 .menu li{
@@ -20,4 +19,46 @@
 .menu p{
     color: white;
     margin-left: 15px;
+}
+
+.menu-ul{
+    display: flex;
+    list-style: none;
+    gap: 37px;
+}
+
+.header{
+    display: flex;
+    background-color: #141414;
+    justify-content: space-between;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+.section-backgr{
+    background-color: #141414;
+}
+
+.about-us-list{
+    display: flex;
+    list-style: none;
+    gap: 157px;
+    margin-left: 300px;
+}
+
+.about-us-title::after{
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #99823D;
+    position: absolute;
+    left: 70px;
+}
+
+.about-us-item{
+    position: relative;
 }
